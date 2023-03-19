@@ -6,7 +6,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [isPending,setIsPending]=useState(true);
 
-   const API_URL ="http://localhost:5000/todos";
+   const API_URL ="https://64176ab7e2e156da767339e4.mockapi.io/todos";
   const handleDelete= (id)=>{
     fetch(`${API_URL}/${id}`,{
       method:"DELETE"
