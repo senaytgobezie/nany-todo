@@ -46,6 +46,17 @@
   gap: 20px;
   align-items: flex-start;
   width: 100%;
+  
+}
+.todo-lists h3{
+  text-align: center;
+  width: 100%;
+  color:#e376d8;
+}
+.loading{
+  text-align: center;
+  width: 100%;
+  color:#e376d8;
 }
 .todo-list {
   display: flex;
@@ -59,11 +70,21 @@
 .des {
   padding: 10px 20px;
 }
-.todo-list button {
+.btn {
   background-color: transparent;
-  border: 0;
-  border-radius: 30px;
+  border: 1px solid #e376d8;
+  border-radius: 100%;
   font-size: 23px;
   margin: 0px 30px;
   font-weight: bold;
+}
+.dis-btn{
+  font-size:15px;
+  background-color: transparent;
+  border: 1px solid #e376d8;
+  border-radius: 100%;
+  margin: 0px 30px;
+}
+.todo-list button:hover {
+  background-color: #c052c2;
 }
